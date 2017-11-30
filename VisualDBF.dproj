@@ -89,11 +89,13 @@
         <DCC_DebugInformation>0</DCC_DebugInformation>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+        <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
+        <VerInfo_MinorVer>5</VerInfo_MinorVer>
         <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
         <VerInfo_Locale>8202</VerInfo_Locale>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <Icon_MainIcon>DBF.ico</Icon_MainIcon>
-        <VerInfo_Keys>CompanyName=CS NASA;FileDescription=;FileVersion=1.0.0.0;InternalName=VisualDBF.exe;LegalCopyright=;LegalTrademarks=;OriginalFilename=VisualDBF.exe;ProductName=Visualizador de archivos DBF;ProductVersion=1.0.0.0;Comments=Visualizador simple de archivos DBF</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=CS NASA;FileDescription=;FileVersion=1.5.0.0;InternalName=VisualDBF.exe;LegalCopyright=;LegalTrademarks=;OriginalFilename=VisualDBF.exe;ProductName=Visualizador de archivos DBF;ProductVersion=1.5.0.0;Comments=Visualizador simple de archivos DBF</VerInfo_Keys>
     </PropertyGroup>
     <ItemGroup>
         <DelphiCompile Include="$(MainSource)">

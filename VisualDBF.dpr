@@ -1,3 +1,18 @@
+{   Visualizador de archivos DBF
+            v1.1
+
+      Autor: Ing. Francisco Sáez
+
+ Visualizador simple de archivos .dbf (FoxPro, DBase).
+
+ Componentes externos:
+
+ - TDbf 7.01 (gratuito)
+ - JvDBGridCSVExport (JEDI, gratuito).
+
+    Calabozo, 9 de febrero de 2014
+}
+
 program VisualDBF;
 
 uses
